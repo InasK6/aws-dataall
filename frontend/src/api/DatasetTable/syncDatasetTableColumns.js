@@ -17,6 +17,7 @@ const syncDatasetTableColumns = (tableUri) => ({
           name
           description
           typeName
+          similarity
         }
       }
     }

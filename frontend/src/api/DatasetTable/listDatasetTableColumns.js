@@ -23,6 +23,7 @@ const listDatasetTableColumns = ({ tableUri, filter }) => ({
           description
           typeName
           columnType
+          similarity
           terms {
             count
             page

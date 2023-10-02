@@ -73,7 +73,8 @@ const TableColumns = (props) => {
                 ? `${c.name} (${c.columnType})`
                 : c.name,
             type: c.typeName,
-            description: c.description
+            description: c.description,
+            similarity: c.similarity
           }))
         );
         enqueueSnackbar('Columns synchronized successfully', {
@@ -111,7 +112,8 @@ const TableColumns = (props) => {
                 ? `${c.name} (${c.columnType})`
                 : c.name,
             type: c.typeName,
-            description: c.description
+            description: c.description,
+            similarity: c.similarity
           }))
         );
       } else {
@@ -135,6 +137,7 @@ const TableColumns = (props) => {
   const header = [
     { field: 'name', headerName: 'Name', width: 400, editable: false },
     { field: 'type', headerName: 'Type', width: 400, editable: false },
+    { field: 'similarity', headerName: 'Similarity', width: 400, editable: false },
     {
       field: 'description',
       headerName: 'Description',
