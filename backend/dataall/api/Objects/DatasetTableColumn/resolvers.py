@@ -90,6 +90,7 @@ def update_table_column(
             permission_name=permissions.UPDATE_DATASET_TABLE,
         )
         column.description = input.get('description', 'No description provided')
+        column.similarity = input.get('similarity', 'No similarity provided')
         session.add(column)
         session.commit()
 

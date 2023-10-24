@@ -103,7 +103,7 @@ const TableColumns = (props) => {
           tableUri: table.tableUri,
           filter: Defaults.SelectListFilter
         })
-      );$/
+      );*/
       // Stub to simulate gql answer 
       /*const gqlResponseString =
      `{

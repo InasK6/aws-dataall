@@ -16,5 +16,6 @@ DatasetTableColumnInput = gql.InputType(
         gql.Argument('classification', gql.Integer),
         gql.Argument('tags', gql.Integer),
         gql.Argument('topics', gql.Integer),
+        gql.Argument('similarity', gql.String),
     ],
 )
