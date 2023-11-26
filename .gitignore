@@ -72,3 +72,4 @@ yarn-error.log*
 .idea
 /backend/dataall/cdkproxy/assets/gluedataqualityjob/datahubdq.zip
 /backend/dataall/cdkproxy/assets/glueprofilingjob/datahubdq.zip
+backend/dataall/cdkproxy/cdk.context.json
